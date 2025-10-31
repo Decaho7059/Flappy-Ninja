@@ -137,18 +137,17 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 💾 Sauvegarde cloud	Synchronisation du meilleur score sur le cloud
 ```
 ## 🕹️ Exemple de rendu
-```bash
-## 🕹️ Exemple de rendu
 
 > “Un petit jeu amusant et codé avec passion 🧠💪 — Flutter power!”
 
+```markdown
 <p align="center">
   <img src="lib/images/flappy_ninja.gif" width="350" alt="Flappy Ninja Gameplay">
 </p>
 
 ```
 
-![Gameplay Demo](assets/demo.gif)
+![Gameplay Demo](lib/images/flappy_ninja.gif)
 
 ## 🧡 Support
 Tu aimes ce projet ?
