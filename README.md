@@ -7,11 +7,11 @@
 ## 🎮 Aperçu du jeu
 
 <img src="lib/images/kurama.png" width="100" align="left" />
-Flappy Ninja est une version revisitée du classique Flappy Bird, développée en **Flutter/Dart**, avec :
-- un **menu d’accueil interactif** et animé,
-- un **système de sélection d’avatars**,
-- un **compteur de score et de meilleur score persistants**,
-- et une **interface stylisée “arcade”**.
+Flappy Ninja est une version revisitée du classique Flappy Bird, développée en ** Flutter/Dart **, avec :
+- un ** menu d’accueil interactif ** et animé,
+- un ** système de sélection d’avatars **,
+- un ** compteur de score et de meilleur score persistants **,
+- et une ** interface stylisée “arcade” **.
 
 Le jeu allie logique physique simple (saut, gravité, obstacles) à un design moderne.
 
