@@ -46,14 +46,14 @@ Le jeu allie logique physique simple (saut, gravité, obstacles) à un design mo
 ## 🧠 Logique du jeu (simplifiée)
 
 ```mermaid
-graph TD
-A[Tap ecran] --> B[jump(): reset temps et set hauteur initiale]
-B --> C[Timer.periodic(60ms)]
-C --> D[Calcul hauteur: h = -4.9*t^2 + 2.8*t]
-D --> E[MAJ position birdYaxis]
-E --> F[Deplacement des obstacles]
-F --> G[Detection collisions]
-G -->|Hit| H[gameOver()]
+flowchart TD
+A["Tap ecran"] --> B["jump(): reset temps et set hauteur initiale"]
+B --> C["Timer.periodic(60ms)"]
+C --> D["Calcul hauteur: h = -4.9*t^2 + 2.8*t"]
+D --> E["MAJ position birdYaxis"]
+E --> F["Deplacement des obstacles"]
+F --> G["Detection collisions"]
+G -->|Hit| H["gameOver()"]
 G -->|No Hit| C
 ```
 
