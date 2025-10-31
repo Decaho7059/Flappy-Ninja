@@ -140,13 +140,6 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 
 > “Un petit jeu amusant et codé avec passion 🧠💪 — Flutter power!”
 
-```markdown
-<p align="center">
-  <img src="lib/images/flappy_ninja.gif" width="350" alt="Flappy Ninja Gameplay">
-</p>
-
-```
-
 ![Gameplay Demo](lib/images/flappy_ninja.gif)
 
 ## 🧡 Support
