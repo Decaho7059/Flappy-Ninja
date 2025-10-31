@@ -138,9 +138,14 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 ```
 ## 🕹️ Exemple de rendu
 ```bash
-“Un petit jeu amusant et codé avec passion 🧠💪 — Flutter power!”
+## 🕹️ Exemple de rendu
 
-(Ajoute ici ton GIF ou ta capture d’écran de gameplay)
+> “Un petit jeu amusant et codé avec passion 🧠💪 — Flutter power!”
+
+<p align="center">
+  <img src="lib/images/flappy_ninja.gif" width="350" alt="Flappy Ninja Gameplay">
+</p>
+
 ```
 
 ![Gameplay Demo](assets/demo.gif)
