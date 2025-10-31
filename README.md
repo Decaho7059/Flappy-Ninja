@@ -47,27 +47,28 @@ Le jeu allie logique physique simple (saut, gravité, obstacles) à un design mo
 
 ```mermaid
 graph TD
-A[Tap écran] --> B[jump(): reset temps & set hauteur initiale]
+A[Tap ecran] --> B[jump(): reset temps et set hauteur initiale]
 B --> C[Timer.periodic(60ms)]
-C --> D[Calcul hauteur : h = -4.9*t² + 2.8*t]
-D --> E[MàJ position birdYaxis]
-E --> F[Déplacement des obstacles]
-F --> G[Détection collisions]
+C --> D[Calcul hauteur: h = -4.9*t^2 + 2.8*t]
+D --> E[MAJ position birdYaxis]
+E --> F[Deplacement des obstacles]
+F --> G[Detection collisions]
 G -->|Hit| H[gameOver()]
 G -->|No Hit| C
+```
 
 ## 🧰 Outils et technologies utilisés
 
-| 🧩 Technologie | 💡 Utilisation |
-|----------------|----------------|
-| **Flutter 3.35+ / Dart** | Framework principal |
-| **Material Design** | Interface graphique et boutons |
-| **Timer (`dart:async`)** | Animation du saut et des obstacles |
-| **Shared Preferences** | Persistance du meilleur score |
-| **AnimatedContainer** | Animation fluide des éléments du jeu |
-| **Custom Widgets** | Séparation des composants (`MyBird`, `MyBarrier`, `MyWelcome`) |
-| **LinearGradient** | Effet visuel d’arrière-plan |
-| **Navigator** | Gestion des transitions entre écrans |
+| 🧩 **Technologie** | ⚙️ **Utilisation** |
+|--------------------|--------------------|
+| 🐦 **Flutter 3.35+ / Dart** | Framework principal |
+| 🎨 **Material Design** | Interface graphique et boutons |
+| ⏱️ **Timer (`dart:async`)** | Animation du saut et des obstacles |
+| 💾 **Shared Preferences** | Persistance du meilleur score |
+| 🌀 **AnimatedContainer** | Animation fluide des éléments du jeu |
+| 🧱 **Custom Widgets** | Séparation des composants (`MyBird`, `MyBarrier`, `MyWelcome`) |
+| 🌈 **LinearGradient** | Effet visuel d’arrière-plan |
+| 🧭 **Navigator** | Gestion des transitions entre écrans |
 
 ## 🧩 Structure du projet
 
@@ -86,19 +87,20 @@ lib/
 ```bash
 git clone https://github.com/<ton-nom-utilisateur>/flappy_ninja.git
 cd flappy_ninja
+```
 
 ### 2️⃣ **Installer les dépendances**
 ```bash
 flutter pub get
-
+```
 ### 3️⃣ ***Lancer le jeu***
 ```bash
 flutter run
-
+```
 ###4️⃣ ***(Optionnel) Nettoyer le projet***
 ```bash
 flutter clean && flutter pub get
-
+```
 ## 📦 Dépendances principales
 yaml
 
@@ -113,7 +115,7 @@ dependencies:
 👨‍💻 Développeur principal : Decaho Gbegbe
 🎨 Design / UI : Collaborateurs du projet Flappy Ninja
 📚 Université d’Ottawa — Projet personnel inspiré de Flappy Bird
-
+```
 ## ⚖️ Droits et mentions légales
 ```bash
 © 2025 Flappy Ninja — Tous droits réservés.
@@ -123,7 +125,7 @@ Toute reproduction, distribution ou modification du code à des fins commerciale
 
 Les images et noms d’avatars utilisés appartiennent à leurs détenteurs respectifs (licences libres ou fan-art).
 L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de l’univers Naruto™.
-
+```
 ### 🌟 À venir (Roadmap)
 ```bash
 🎯 Fonctionnalité	🧩 Description
@@ -132,13 +134,13 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 🔥 Tableau des scores global	Sauvegarde en ligne via Firebase
 📱 Version mobile complète	Déploiement Android/iOS
 💾 Sauvegarde cloud	Synchronisation du meilleur score sur le cloud
-
+```
 ## 🕹️ Exemple de rendu
 ```bash
 “Un petit jeu amusant et codé avec passion 🧠💪 — Flutter power!”
 
 (Ajoute ici ton GIF ou ta capture d’écran de gameplay)
-
+```
 markdown
 ![Gameplay Demo](assets/demo.gif)
 
