@@ -70,8 +70,9 @@ G -->|No Hit| C
 | 🌈 **LinearGradient** | Effet visuel d’arrière-plan |
 | 🧭 **Navigator** | Gestion des transitions entre écrans |
 
-## 🧩 Structure du projet
+## 🧩 **Structure du projet**
 
+```markdown
 lib/
 │
 ├── main.dart              # Point d’entrée du jeu
@@ -80,7 +81,7 @@ lib/
 ├── bird.dart              # Widget de l’avatar (image dynamique)
 ├── barriers.dart          # Widget des obstacles
 └── images/                # Dossier des assets (avatars et logo)
-
+```
 ## ⚙️ **Installation et exécution**
 
 ### 1️⃣ **Cloner le projet**
@@ -103,12 +104,12 @@ flutter clean && flutter pub get
 ```
 ## 📦 Dépendances principales
 yaml
-
+```bash
 dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.3.0
-
+```
 
 ## 🧑‍💻 Auteurs et contributeurs
 ```bash
@@ -141,7 +142,7 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 
 (Ajoute ici ton GIF ou ta capture d’écran de gameplay)
 ```
-markdown
+
 ![Gameplay Demo](assets/demo.gif)
 
 ## 🧡 Support
