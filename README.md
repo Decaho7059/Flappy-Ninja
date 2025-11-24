@@ -146,3 +146,6 @@ L’auteur ne revendique aucun droit d’auteur sur les personnages inspirés de
 Tu aimes ce projet ?
 
 ## ⭐ Laisse une étoile sur GitHub pour soutenir le développement et encourager les futures mises à jour !
+
+## 📜 Licence
+MIT License
